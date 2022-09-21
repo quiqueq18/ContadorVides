@@ -14,6 +14,8 @@ import com.example.contadorvides.databinding.FragmentFirstBinding;
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
+    private int vida1;
+    private int veneno1;
 
     @Override
     public View onCreateView(

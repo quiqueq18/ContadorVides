@@ -7,7 +7,7 @@
     tools:context=".FirstFragment">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_p1_pMas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_p1_pMenos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -27,26 +27,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btn_p1_vidasMas"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:src="@drawable/ic_baseline_favorite_24"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/btn_p1_pMas"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMas" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btn_p1_vidasMenos"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/ic_baseline_favorite_border_24"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toStartOf="@+id/btn_p1_pMenos"
+        app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMenos" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -78,18 +78,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ValoresP1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="20/0"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toStartOf="@+id/btn_p1_vidasMenos"
+        app:layout_constraintStart_toEndOf="@+id/btn_p1_vidasMas"
+        app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMas" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_p2_pMas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -99,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_p2_pMenos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -109,35 +109,35 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/btn_p2_vidasMas"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:src="@drawable/ic_baseline_favorite_24"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMas"
+        app:layout_constraintEnd_toEndOf="@+id/btn_p2_pMas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/btn_p2_vidasMenos"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/ic_baseline_favorite_border_24"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMenos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/btn_p2_pMenos"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/ValoresP2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="20/0"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMenos"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p2_vidasMenos"
+        app:layout_constraintStart_toEndOf="@+id/btn_p2_vidasMas"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
