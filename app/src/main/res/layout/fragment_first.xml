@@ -32,7 +32,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:src="@drawable/ic_baseline_favorite_24"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintBottom_toTopOf="@+id/Vida2a1"
         app:layout_constraintEnd_toEndOf="@+id/btn_p1_pMas"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMas" />
@@ -43,7 +43,7 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/ic_baseline_favorite_border_24"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintBottom_toTopOf="@+id/Vida2a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/btn_p1_pMenos"
         app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMenos" />
@@ -56,7 +56,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/Vida2a1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/Vida1a2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,7 +75,7 @@
         android:src="@drawable/ic_baseline_south_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+        app:layout_constraintTop_toBottomOf="@+id/Vida2a1" />
 
     <TextView
         android:id="@+id/ValoresP1"
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:text="20/0"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintBottom_toTopOf="@+id/Vida2a1"
         app:layout_constraintEnd_toStartOf="@+id/btn_p1_vidasMenos"
         app:layout_constraintStart_toEndOf="@+id/btn_p1_vidasMas"
         app:layout_constraintTop_toBottomOf="@+id/btn_p1_pMas" />
@@ -117,7 +117,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMas"
         app:layout_constraintEnd_toEndOf="@+id/btn_p2_pMas"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/Vida1a2" />
 
     <ImageButton
         android:id="@+id/btn_p2_vidasMenos"
@@ -127,7 +127,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMenos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/btn_p2_pMenos"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/Vida1a2" />
 
     <TextView
         android:id="@+id/ValoresP2"
@@ -138,6 +138,6 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_p2_pMenos"
         app:layout_constraintEnd_toStartOf="@+id/btn_p2_vidasMenos"
         app:layout_constraintStart_toEndOf="@+id/btn_p2_vidasMas"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/Vida1a2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
