@@ -20,7 +20,6 @@ public class FirstFragment extends Fragment {
     private int veneno2;
 
 
-
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
