@@ -31,10 +31,10 @@ public class FirstFragment extends Fragment {
         reset();
 
         if(savedInstanceState==null){
-            vida1= savedInstanceState.getInt(key"vida1");
-            veneno1= savedInstanceState.getInt(key"veneno1");
-            vida2= savedInstanceState.getInt(key"vida2");
-            veneno2= savedInstanceState.getInt(key"veneno2");
+            vida1= savedInstanceState.getInt(key="vida1");
+            veneno1= savedInstanceState.getInt(key="veneno1");
+            vida2= savedInstanceState.getInt(key="vida2");
+            veneno2= savedInstanceState.getInt(key="veneno2");
         }
 
         binding.Vida2a1.setOnClickListener(new View.OnClickListener() {
